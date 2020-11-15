@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">VTU SGPA and CGPA calculator</string>
+    <string-array name="branch">
+        <item>Computer Science Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Electronics Engineering</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="noofsem">
+        <item>Select number of semesters</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="cs">
+        <item>sem 1 chemistry cycle</item>
+        <item>sem 2 chemistry cycle</item>
+        <item>sem 1 physics cycle</item>
+        <item>sem 2 physics cycle</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">B.E./B.Tech Students of VTU!!</string>
+    <string name="slide_1_desc"> Now you can manage all your result related activities in a single place in a very easy, comfortable and organised manner.</string>
+
+    <string name="slide_2_title">All Schemes available.</string>
+    <string name="slide_2_desc">2015, 2017 and 2018</string>
+
+    <string name="slide_3_title">Calculate your SGPA, CGPA and percentage</string>
+
+    <string name="slide_4_title">Save calculated results for future reference for multiple users.</string>
+    <string name="slide_4_desc">Also, in the next update you can add PDFs and images related to your results in the app itself for easier and faster access.</string>
+
+    <string name="slide_5_title"> Also find a direct link to VTU Result official website.</string>
+    <string name="slide_5_desc">Receive notifications when result are out.</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

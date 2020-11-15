@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:icon="@drawable/s"
+    android:id="@+id/navigation_sgpa"
+    android:title="SGPA" />
+
+<item
+    android:icon="@drawable/c"
+    android:id="@+id/navigation_cgpa"
+    android:title="CGPA" />
+</menu>

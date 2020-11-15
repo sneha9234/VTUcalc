@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_main"
+        android:icon="@mipmap/ic_calc"
+        android:title="SGPA and CGPA calculator" />
+
+    <item
+        android:id="@+id/nav_savedcal"
+        android:icon="@mipmap/ic_save"
+        android:title="View saved results" />
+
+    <item
+        android:id="@+id/nav_upldoc"
+        android:icon="@mipmap/ic_up"
+        android:title="View uploaded documents" />
+
+    <item
+        android:id="@+id/nav_notif"
+        android:icon="@mipmap/ic_notif"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/nav_site"
+        android:icon="@mipmap/ic_web"
+        android:title="Visit VTU results official website" />
+
+</menu>

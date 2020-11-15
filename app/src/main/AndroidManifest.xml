@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sneha.vtusgpaandcgpacalculator"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+<!--    <uses-permission android:name="android.permission.CAMERA" />-->
+
+<!--    <uses-feature android:name="android.hardware.camera" />-->
+<!--    <uses-feature android:name="android.hardware.camera.autofocus" />-->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".camerapdf.viewimages"/>
+        <activity
+            android:name=".soon2"
+            android:parentActivityName=".cgpa.scheme"/>
+        <activity
+            android:name=".sgpa2018.sem88"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".sgpa2018.sem78"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem68"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem58"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem48"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem38"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem2phy8"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem1phy8"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem2chem8"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.sem1chem8"
+            android:parentActivityName=".sgpa2018.choosesem18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2018.choosesem18"
+            android:parentActivityName=".sgpa.MainActivity" />
+        <activity
+            android:name=".cgpa2018.cgpa88"
+            android:parentActivityName=".cgpa2018.selectns18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2018.cgpa78"
+            android:parentActivityName=".cgpa2018.selectns18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2018.cgpa68"
+            android:parentActivityName=".cgpa2018.selectns18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2018.cgpa58"
+            android:parentActivityName=".cgpa2018.selectns18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2018.cgpa48"
+            android:parentActivityName=".cgpa2018.selectns18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2018.cgpa38"
+            android:parentActivityName=".cgpa2018.selectns18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2018.cgpa28"
+            android:parentActivityName=".cgpa2018.selectns18"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2018.selectns18"
+            android:parentActivityName=".cgpa.scheme" />
+        <activity
+            android:name=".cgpa2015.cgpa85"
+            android:parentActivityName=".cgpa2015.selectns"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2015.cgpa75"
+            android:parentActivityName=".cgpa2015.selectns"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2015.cgpa65"
+            android:parentActivityName=".cgpa2015.selectns"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2015.cgpa55"
+            android:parentActivityName=".cgpa2015.selectns"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2015.cgpa45"
+            android:parentActivityName=".cgpa2015.selectns"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2015.cgpa35"
+            android:parentActivityName=".cgpa2015.selectns"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2015.cgpa25"
+            android:parentActivityName=".cgpa2015.selectns"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2015.selectns"
+            android:parentActivityName=".cgpa.scheme" />
+        <activity
+            android:name=".sgpa2015.sem8"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem7"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem6"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem5"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem4"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem2phy"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem1phy"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem3"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem2chem"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.sem1chem"
+            android:parentActivityName=".sgpa2015.choosesem"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2015.choosesem"
+            android:parentActivityName=".sgpa.MainActivity" />
+        <activity android:name=".camerapdf.doc" />
+        <activity android:name=".camerapdf.image" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4453556683034440~4220517044" />
+
+        <activity
+            android:name=".soon1"
+            android:parentActivityName=".sgpa.MainActivity" />
+        <activity
+            android:name=".sgpa2017.o8"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.o7"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.o6"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.o5"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.o4"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.o3"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.chem2"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.chem1"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.phy2"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.phy1"
+            android:parentActivityName=".sgpa2017.activity2017"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2017.cgpa8"
+            android:parentActivityName=".cgpa2017.sems"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2017.cgpa7"
+            android:parentActivityName=".cgpa2017.sems"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2017.cgpa6"
+            android:parentActivityName=".cgpa2017.sems"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2017.cgpa5"
+            android:parentActivityName=".cgpa2017.sems"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2017.cgpa4"
+            android:parentActivityName=".cgpa2017.sems"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2017.cgpa3"
+            android:parentActivityName=".cgpa2017.sems"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".cgpa2017.cgpa2"
+            android:parentActivityName=".cgpa2017.sems"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".sgpa2017.activity2017"
+            android:parentActivityName=".sgpa.MainActivity" />
+        <activity
+            android:name=".cgpa2017.sems"
+            android:parentActivityName=".cgpa.scheme" />
+        <activity
+            android:name=".cgpa.scheme"
+            android:parentActivityName=".drawernav.what" />
+        <activity android:name=".drawernav.what" />
+        <activity
+            android:name=".introslider.introslider"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".splashscreen.Splashactivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sgpa.MainActivity"
+            android:parentActivityName=".drawernav.what" />
+    </application>
+
+</manifest>
