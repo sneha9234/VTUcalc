@@ -46,21 +46,21 @@ public class cgpa8 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cgpa8);
 
-        getSupportActionBar().setTitle(("CGPA"));
+        getSupportActionBar().setTitle(R.string.cgpa);
 
-        editText36 = (EditText) findViewById(R.id.editText36);
-        editText37 = (EditText) findViewById(R.id.editText37);
-        editText38 = (EditText) findViewById(R.id.editText38);
-        editText39 = (EditText) findViewById(R.id.editText39);
-        editText40 = (EditText) findViewById(R.id.editText40);
-        editText41 = (EditText) findViewById(R.id.editText41);
-        editText42 = (EditText) findViewById(R.id.editText42);
-        editText43 = (EditText) findViewById(R.id.editText43);
-        textView93 = (TextView) findViewById(R.id.textView93);
-        textView94 = (TextView) findViewById(R.id.textView94);
-        button23 = (Button) findViewById(R.id.button23);
-        clr7 = (Button) findViewById(R.id.clr7);
-        save7 = (Button) findViewById(R.id.save7);
+        editText36 = findViewById(R.id.editText36);
+        editText37 = findViewById(R.id.editText37);
+        editText38 = findViewById(R.id.editText38);
+        editText39 = findViewById(R.id.editText39);
+        editText40 = findViewById(R.id.editText40);
+        editText41 = findViewById(R.id.editText41);
+        editText42 = findViewById(R.id.editText42);
+        editText43 = findViewById(R.id.editText43);
+        textView93 = findViewById(R.id.textView93);
+        textView94 = findViewById(R.id.textView94);
+        button23 = findViewById(R.id.button23);
+        clr7 = findViewById(R.id.clr7);
+        save7 = findViewById(R.id.save7);
 
 
         editText36.addTextChangedListener(new TextWatcher() {
