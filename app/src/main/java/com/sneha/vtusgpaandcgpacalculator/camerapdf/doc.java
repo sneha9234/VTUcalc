@@ -28,7 +28,7 @@ public class doc extends AppCompatActivity {
         getSupportActionBar().setTitle(R.string.documents);
 
         View layout = LayoutInflater.from(doc.this).inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.linlayContainer));
-        TextView tv = (TextView) layout.findViewById(R.id.txtMsg);
+        TextView tv = layout.findViewById(R.id.txtMsg);
         tv.setText("This feature will be available after some time");
         Toast toast = new Toast(doc.this);
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 100);
