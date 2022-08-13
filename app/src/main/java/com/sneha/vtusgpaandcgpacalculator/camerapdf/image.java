@@ -72,7 +72,7 @@ public class image extends AppCompatActivity {
         setContentView(R.layout.activity_image);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(("IMAGES"));
+        getSupportActionBar().setTitle(R.string.images);
 
         gridView = (GridView) findViewById(R.id.gridView);
         list = new ArrayList<>();
