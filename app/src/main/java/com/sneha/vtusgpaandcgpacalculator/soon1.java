@@ -11,6 +11,6 @@ public class soon1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soon1);
 
-        getSupportActionBar().setTitle(("SGPA"));
+        getSupportActionBar().setTitle(R.string.sgpa);
     }
 }
