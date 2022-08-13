@@ -25,7 +25,7 @@ public class doc extends AppCompatActivity {
         setContentView(R.layout.activity_doc);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle(("Documents"));
+        getSupportActionBar().setTitle(R.string.documents);
 
         View layout = LayoutInflater.from(doc.this).inflate(R.layout.custom_toast, (ViewGroup) findViewById(R.id.linlayContainer));
         TextView tv = (TextView) layout.findViewById(R.id.txtMsg);
